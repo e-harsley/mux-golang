@@ -19,4 +19,5 @@ func webInit(r *mux.Router) {
 	web.ProfileRoute(r)
 	web.CurrencyRoute(r)
 	web.AccountRoute(r)
+	web.TestRoute(r)
 }
